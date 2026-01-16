@@ -1,0 +1,23 @@
+* { box-sizing: border-box; margin: 0; }
+
+img{ max-width: 100%; }
+
+body { font-family: sans-serif } 
+
+body {
+	display: flex; 
+	gap: 1rem;
+	flex-direction: column;
+	padding: 1rem;
+}
+
+.row { 
+	display: flex; 
+	gap: 1rem;
+}
+.row > * {
+	flex: 1;
+}
+div.row {
+	background-color:z;
+}
